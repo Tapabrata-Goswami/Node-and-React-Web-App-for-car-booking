@@ -5,12 +5,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min"
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
@@ -19,6 +21,7 @@ const App = () => {
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   )
 }
