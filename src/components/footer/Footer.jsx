@@ -5,10 +5,7 @@ import logo from '../../assets/images/Zipcarz-logo.png'
 const Footer = () => {
     return (
         <div className="Container-fluid mt-5">
-            <div className="container footer-top">
-
-            </div>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-4">
                         <img src={logo} alt="" />
@@ -43,7 +40,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="container footer-bottom">
+            <div className="container footer-bottom mt-5">
                 <div className="row">
                     <div className="col-md-6">
                         <p>© ZipCarz 2024, All Right Reserverd</p>

@@ -1,22 +1,24 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
+import { BrowserRouter as Router, Route, BrowserRouter, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
-import Hero from './components/hero/Hero'
-import Infobox from './components/infobox/Infobox'
-import Carlist from './components/carlist/Carlist'
-import Footer from './components/footer/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
 
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Infobox />
-      <Carlist />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   )
 }

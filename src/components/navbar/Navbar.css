@@ -20,3 +20,11 @@
     background-color: var(--blue) !important;
     border:none !important;
 }
+
+.dark-nav{
+    /* background-color: #e7e7e7; */
+    position: fixed;
+    z-index: 9999;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0px 4px rgba(210, 210, 210, 0.802);
+}
