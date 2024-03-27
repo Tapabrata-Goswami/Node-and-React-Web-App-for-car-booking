@@ -1,0 +1,26 @@
+.footer-heading{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.footer-options > li{
+    padding-bottom:13px;
+}
+
+.footer-options > li > a{
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--black);
+}
+
+.footer-logo-description{
+    padding-top:20px;
+    font-weight: 500;
+}
+
+.footer-social-icons > i{
+    color:var(--blue);
+    padding:0 10px;
+    font-size: 18px;
+}

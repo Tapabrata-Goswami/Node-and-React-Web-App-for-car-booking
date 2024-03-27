@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min"
 import Hero from './components/hero/Hero'
 import Infobox from './components/infobox/Infobox'
 import Carlist from './components/carlist/Carlist'
+import Footer from './components/footer/Footer'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <Infobox />
       <Carlist />
+      <Footer />
     </div>
   )
 }
