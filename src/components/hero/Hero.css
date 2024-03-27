@@ -1,0 +1,30 @@
+.hero-content{
+  height: 500px;
+}
+.sub-heading{
+  color:var(--blue);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+}
+.heading{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 46px;
+}
+.heading-blue{
+  color:var(--blue);
+  font-weight: 600;
+  font-size: 54px;
+}
+.description{
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero-image{
+  height: 400px;
+}
+
+.hero-image{
+  border-radius: 12px;
+}

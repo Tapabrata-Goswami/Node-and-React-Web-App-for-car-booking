@@ -1,0 +1,22 @@
+.nav-bar-row{
+    height: 80px;
+}
+.main-menu,.main-menu-coloumn{
+    height: 100%;
+}
+.main-menu > li > a {
+    font-size: 18px;
+    font-weight: 600;
+    color:var(--light-black);
+}
+.main-menu > li > a:hover{
+    color: var(--black);
+}
+.nav-bar-logo{
+    height: 55px;
+}
+
+.btn-primary{
+    background-color: var(--blue) !important;
+    border:none !important;
+}
