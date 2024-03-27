@@ -1,11 +1,14 @@
 import React from 'react'
-// import Navbar from '../components/navbar/Navbar'
-// import Footer from '../components/footer/Footer';
+import Hero from '../components/contacthero/ContactHero'
+import Infobox from '../components/contactinfo/contactinfo'
+import Mapbox from '../components/mapbox/Mapbox'
 
 const Contact = () => {
   return (
     <div>
-        Body -Contact
+        <Hero />
+        <Infobox />
+        <Mapbox />
     </div>
   )
 }

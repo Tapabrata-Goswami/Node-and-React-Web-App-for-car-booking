@@ -1,0 +1,26 @@
+.map-image{
+    height: 500px;
+}
+.conract-map-heading{
+    font-size: 40px;
+}
+.conract-map-subheading{
+    padding-top: 80px;
+}
+
+.contact-map-left-list{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.contact-map-left-list > li{
+    list-style-type: disc;
+    font-size: 15px;
+    padding:5px 0;
+}
+
+.contact-map-left-list-heading{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:10px;
+}

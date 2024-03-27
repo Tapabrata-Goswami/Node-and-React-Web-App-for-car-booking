@@ -1,0 +1,59 @@
+.hero-row{
+    background: rgb(113,206,255);
+  background: radial-gradient(circle, rgba(113,206,255,1) 2%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+  }
+  .hero-content{
+    height: 500px;
+  }
+  .sub-heading{
+    color:var(--blue);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .heading{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 46px;
+  }
+  .description{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .hero-image{
+    height: 400px;
+  }
+  
+  .hero-image{
+    border-radius: 12px;
+  }
+  .hero-image-container{
+    position:relative;
+    z-index: 9;
+  }
+  .group-dot{
+    position: absolute;
+    z-index: -1;
+    left: 50px;
+    top: -5px;
+  }
+  .rounded-image{
+    position: absolute;
+    height: 150px;
+    z-index: -1;
+    bottom: -14px;
+    right: 53px;
+  }
+
+  .contact-container-form{
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    height: max-content;
+  }
+
+  .smallParagraph{
+    font-size:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

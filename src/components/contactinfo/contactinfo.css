@@ -1,0 +1,57 @@
+.infobox-container{
+    background-color: var(--blue);
+    /* height: 400px; */
+    border-radius: 25px;
+    /* padding: 20px; */
+    padding:30px 80px;
+}
+
+.heding-white{
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+.after-span-heading{
+    color: white;
+    font-weight:600 ;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.info-description{
+    color:white;
+    font-size: 16px;
+    text-align: justify;
+}
+.infobox-listitem{
+  padding-left: 10px;
+  color:#fff;
+  font-size:15px;
+  font-weight:400;
+  line-height: 20px;
+}
+.listofSrvies-infobox > ul > li{
+    gap:20px !important;
+}
+
+.info-box-icon{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.listofSrvies-infobox> li{
+    padding-bottom: 10px;
+}
+
+.contact-info-box-heading{
+    font-size: 18px;
+    font-weight: 700;
+    color:white
+}
+
+.contact-info-small-box{
+    border-left: 1px solid #f5f5f5b7;
+    border-right:1px solid #f5f5f5b7;
+}
