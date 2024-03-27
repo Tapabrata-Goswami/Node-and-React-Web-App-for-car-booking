@@ -1,3 +1,7 @@
+.hero-row{
+  background: rgb(113,206,255);
+background: radial-gradient(circle, rgba(113,206,255,1) 2%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+}
 .hero-content{
   height: 500px;
 }
@@ -27,4 +31,21 @@
 
 .hero-image{
   border-radius: 12px;
+}
+.hero-image-container{
+  position:relative;
+  z-index: 9;
+}
+.group-dot{
+  position: absolute;
+  z-index: -1;
+  left: 50px;
+  top: -5px;
+}
+.rounded-image{
+  position: absolute;
+  height: 150px;
+  z-index: -1;
+  bottom: -14px;
+  right: 53px;
 }

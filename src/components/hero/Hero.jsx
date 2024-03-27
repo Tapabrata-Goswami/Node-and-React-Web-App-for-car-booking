@@ -2,6 +2,8 @@
 import React from 'react'
 import './Hero.css'
 import HeroImage from '../../assets/images/hero-car-images.png'
+import GroupDotImage from '../../assets/images/group-dot.png'
+import RoundedIamge from '../../assets/images/rounded-image.png'
 
 const Hero = () => {
     return (
@@ -19,10 +21,19 @@ cars from us to get best experience.</p>
                 </div>
                 <div className="col-md-6 pt-5 d-flex justify-content-center hero-image-container">
                     <img
+                        className="group-dot"
+                        alt="Group Dot"
+                        src={GroupDotImage}
+                        />
+                    <img
                         src={HeroImage}
                         className="hero-image"
                         alt="Car Image"
                     />
+                    <img 
+                    className="rounded-image"
+                    src={RoundedIamge} 
+                    alt="" />
                 </div>
             </div>
         </div>

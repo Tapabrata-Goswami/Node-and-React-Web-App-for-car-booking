@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import Hero from './components/hero/Hero'
 import Infobox from './components/infobox/Infobox'
+import Carlist from './components/carlist/Carlist'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Infobox />
+      <Carlist />
     </div>
   )
 }
