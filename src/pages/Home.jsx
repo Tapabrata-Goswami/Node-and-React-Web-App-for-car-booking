@@ -3,6 +3,7 @@ import React from 'react'
 import Hero from '../components/hero/Hero';
 import Infobox from '../components/infobox/Infobox';
 import Carlist from '../components/carlist/Carlist';
+import Howitsworks from '../components/howitsworks/Howitsworks';
 // import Footer from '../components/footer/Footer';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <Infobox />
         <Carlist />
+        <Howitsworks />
     </div>
   )
 }

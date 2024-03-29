@@ -1,0 +1,20 @@
+.how-its-card{
+    padding:20px 40px;
+}
+
+.how-its-icon-box{
+    padding:10px;
+}
+
+.how-its-icon{
+    background-color: var(--blue);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.how-icon-heading{
+    font-size: 19px;
+    font-weight: 700;
+}

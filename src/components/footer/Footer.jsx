@@ -4,7 +4,7 @@ import logo from '../../assets/images/Zipcarz-logo.png'
 
 const Footer = () => {
     return (
-        <div className="Container-fluid mt-5">
+        <div className="Container-fluid mt-10">
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-4">

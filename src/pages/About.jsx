@@ -1,11 +1,17 @@
 import React from 'react'
-// import Navbar from '../components/navbar/Navbar'
-// import Footer from '../components/footer/Footer';
+import AboutUsHero from '../components/aboutushero/AboutUsHero'
+import Aboutusimage from '../components/aboutusimage/Aboutusimage'
+import Aboutinfobox from '../components/aboutinfobox/Aboutinfobox'
+import Aboutsecondimage from '../components/aboutsecondimagebox/Aboutsecondimage'
+
 
 const About = () => {
   return (
     <div>
-        Body -About
+        <AboutUsHero/>
+        <Aboutusimage/>
+        <Aboutinfobox/>
+        <Aboutsecondimage/>
     </div>
   )
 }
